@@ -16,7 +16,7 @@ function weatherfoot(){
     <script type="text/javascript">
     	$('#weather').weather({
             el:'.Widget_CN_Weather #weather',
-            weatherurl:'http://5.175.133.112/weather',
+            weatherurl:'http://5.175.133.112:3000/weather',
             imgurl:'<?php echo plugins_url('', __FILE__)?>'
         });
     </script>
